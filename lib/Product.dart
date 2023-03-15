@@ -97,7 +97,7 @@ class _ProductState extends State<Product> {
                         icon: Icon(Icons.favorite_border, color: Colors.red),
                         iconSize: 40),
                   ),
-                  Row(
+                  Column(
                     children: [
                       Padding(
                         padding: const EdgeInsets.fromLTRB(140, 0, 0, 0),
@@ -107,6 +107,12 @@ class _ProductState extends State<Product> {
                             Center(
                               child: Row(
                                 children: [
+                                  Text(
+                                    'Quantity:-',
+                                    style: TextStyle(
+                                        fontSize: 15,
+                                        fontWeight: FontWeight.bold),
+                                  ),
                                   IconButton(
                                     onPressed: () {
                                       _decreseCount();
@@ -128,6 +134,17 @@ class _ProductState extends State<Product> {
                       ),
                     ],
                   ),
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(5, 5, 240, 0),
+                    child: Text(
+                      'Product Price : ${mydata[0]['product_price']}',
+                      style: const TextStyle(
+                          fontSize: 15, fontWeight: FontWeight.bold),
+                    ),
+                  ),
+                  SizedBox(
+                    height: 10.0,
+                  ),
                   Row(
                     children: [
                       Padding(
@@ -137,6 +154,9 @@ class _ProductState extends State<Product> {
                               style: const TextStyle(
                                   fontSize: 15, fontWeight: FontWeight.bold))),
                     ],
+                  ),
+                  SizedBox(
+                    height: 10.0,
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(5, 5, 140, 0),

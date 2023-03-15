@@ -63,7 +63,7 @@ class _CartState extends State<Cart> {
                       style: const TextStyle(
                           fontSize: 15, fontWeight: FontWeight.bold),
                       'Price  :  ${mydata[index]['product_price']}'
-                      "\nProduct_qty : ${mydata[index]['product_qty']}"),
+                      "\nProduct_Qty : ${mydata[index]['product_qty']}"),
                   title: Text(
                     'Product name : ${mydata[index]['product_name']}',
                     style: const TextStyle(
@@ -71,18 +71,6 @@ class _CartState extends State<Cart> {
                   )),
             );
           }),
-      // bottomNavigationBar: ElevatedButton(
-      //   style: TextButton.styleFrom(backgroundColor: Colors.indigo),
-      //   onPressed: () {
-      //     Navigator.push(
-      //         context, MaterialPageRoute(builder: (context) => PlaceOrder()));
-      //   },
-      //   child: Container(
-      //     child: Text('Place Order',
-      //         style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
-      //   ),
-      // ),
-
       bottomNavigationBar: Visibility(
         child: Container(
           height: 70,

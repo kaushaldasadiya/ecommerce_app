@@ -91,32 +91,6 @@ class _UserState extends State<User> {
                         labelText: 'Email'),
                   ),
                 ),
-                // Row(
-                //   children: [
-                //     Expanded(
-                //       child: RadioListTile(
-                //           title: const Text('Male'),
-                //           value: 'Male',
-                //           groupValue: gender,
-                //           onChanged: ((value) {
-                //             setState(() {
-                //               gender = value.toString();
-                //             });
-                //           })),
-                //     ),
-                //     Expanded(
-                //       child: RadioListTile(
-                //           title: const Text('Female'),
-                //           value: 'Female',
-                //           groupValue: gender,
-                //           onChanged: ((value) {
-                //             setState(() {
-                //               gender = value.toString();
-                //             });
-                //           })),
-                //     ),
-                //   ],
-                // ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: TextFormField(

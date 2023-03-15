@@ -28,7 +28,7 @@ class _SplashScreenState extends State<SplashScreen> {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Scaffold(
-          backgroundColor: Colors.blue,
+          backgroundColor: Colors.indigo,
           body: Center(
               child: Container(
             height: 500,

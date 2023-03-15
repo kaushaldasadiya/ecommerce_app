@@ -72,6 +72,16 @@ class _MyAppState extends State<home_screen> {
                           MaterialPageRoute(builder: (context) => Homepage()));
                     },
                   ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Text(
+                    'Created by Kaushal Dasadiya',
+                    style: TextStyle(
+                        fontSize: 15,
+                        fontWeight: FontWeight.bold,
+                        fontStyle: FontStyle.normal),
+                  ),
                   Container(
                     height: 500,
                     width: 500,
