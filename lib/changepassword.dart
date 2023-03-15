@@ -45,9 +45,6 @@ class _changepasswordState extends State<changepassword> {
                         prefixIcon: Icon(Icons.lock)),
                   ),
                 ),
-                // const SizedBox(
-                //   height: 25,
-                // ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: TextFormField(
@@ -60,9 +57,6 @@ class _changepasswordState extends State<changepassword> {
                         prefixIcon: Icon(Icons.lock)),
                   ),
                 ),
-                // const SizedBox(
-                //   height: 25,
-                // ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: TextFormField(

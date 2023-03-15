@@ -175,22 +175,6 @@ class _SiggupState extends State<Siggup> {
             ),
           ),
         ),
-        // Padding(
-        //     padding: EdgeInsets.symmetric(horizontal: 140, vertical: 10),
-        //     child: ElevatedButton(
-        //       style: ElevatedButton.styleFrom(backgroundColor: Colors.indigo),
-        //       onPressed: () {
-        //         if (!_formKey.currentState!.validate()) {
-        //           return;
-        //         }
-        //         _SaveData();
-        //         print('Saved');
-        //       },
-        //       child: const Text(
-        //         'Sign Up',
-        //         style: TextStyle(fontSize: 20),
-        //       ),
-        //     ))
         SizedBox(height: 10),
         Padding(
             padding: EdgeInsets.symmetric(horizontal: 150, vertical: 10),
@@ -221,32 +205,6 @@ class _SiggupState extends State<Siggup> {
             )),
       ]),
     );
-    // ElevatedButton(
-    //     style: TextButton.styleFrom(backgroundColor: Colors.indigo),
-    //     onPressed: () {
-    //       Navigator.push(
-    //           context,
-    //           MaterialPageRoute(
-    //             builder: (context) => const Login(),
-    //           ));
-    //     },
-    //     child: const Text(
-    //       "Login ",
-    //       style: TextStyle(fontSize: 20),
-    //     )),
-    // Container(
-    //   child: TextButton(
-    //     onPressed: () {
-    //       Navigator.push(
-    //           context,
-    //           MaterialPageRoute(
-    //             builder: (context) => Homepage(),
-    //           ));
-    //     },
-    //     child: const Text('Skip login',
-    //         style: TextStyle(fontWeight: FontWeight.bold)),
-    //   ),
-    // ),
   }
 
   Future _SaveData() async {
