@@ -52,12 +52,9 @@ class _wishlistpageState extends State<wishlistpage> {
                   title: Text(mydata[index]["product_name"],
                       style:
                           TextStyle(fontSize: 17, fontWeight: FontWeight.bold)),
-                  // subtitle: Text(
-                  //   mydata[index]["product_price"],
-                  //   style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),
-                  // ),
                   subtitle: Text(
-                    'Price : ${mydata[index]['product_price']}',
+                    'Price : ${mydata[index]['product_price']}'
+                    '\nDetails : ${mydata[index]['product_details']}',
                     style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),
                   ),
                   trailing: IconButton(

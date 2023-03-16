@@ -52,21 +52,7 @@ class _UserState extends State<User> {
                       children: [
                         Center(
                           child: Icon(Icons.face_outlined, size: 150),
-                        )
-                        // CircleAvatar(
-                        //   radius: 100,
-                        //   backgroundColor: Colors.grey,
-                        //   backgroundImage: AssetImage("assets/dk.png"),
-                        // ),
-                        // Positioned(
-                        //   bottom: 20.0,
-                        //   right: 20.0,
-                        //   child: Icon(
-                        //     Icons.camera_alt,
-                        //     color: Colors.teal,
-                        //     size: 30.0,
-                        //   ),
-                        // )
+                        ),
                       ],
                     ),
                   ),
