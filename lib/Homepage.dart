@@ -68,12 +68,11 @@ class Homepage extends StatelessWidget {
                 },
                 icon: Icon(Icons.shopping_cart)),
             IconButton(
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => home_screen()));
-              },
-              icon: Icon(Icons.logout_outlined),
-            ),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => home_screen()));
+                },
+                icon: Icon(Icons.logout_outlined))
           ],
         ),
         body: mystate(),
