@@ -11,9 +11,9 @@ import 'screen/Login.dart';
 import 'User.dart';
 import 'main.dart';
 
-// void main() {
-//   runApp(const Homepage());
-// }
+void main() {
+  runApp(const Homepage());
+}
 
 class Homepage extends StatelessWidget {
   const Homepage({super.key});
@@ -67,13 +67,13 @@ class Homepage extends StatelessWidget {
                       context, MaterialPageRoute(builder: (context) => Cart()));
                 },
                 icon: Icon(Icons.shopping_cart)),
-            // IconButton(
-            //     onPressed: () {
-            //       Navigator.push(context,
-            //           MaterialPageRoute(builder: (context) => home_screen()));
-            //     },
-            //     icon: Icon(Icons.logout_outlined)),
-            IconButton(onPressed: () {}, icon: Icon(Icons.logout_outlined)),
+            IconButton(
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => home_screen()));
+              },
+              icon: Icon(Icons.logout_outlined),
+            ),
           ],
         ),
         body: mystate(),
@@ -142,35 +142,5 @@ class _mystateState extends State<mystate> {
       print("Error in Api Calling");
       rethrow;
     }
-  }
-
-  confirmlogout() async {
-    return showDialog(
-      context: context,
-      builder: (context) {
-        return AlertDialog(
-          title: Text(
-            'Confirm Logout ?',
-          ),
-          actions: <Widget>[
-            ElevatedButton(
-              child: Text('NO'),
-              onPressed: () {
-                print('Cancel Pressed');
-                Navigator.pop(context);
-              },
-            ),
-            ElevatedButton(
-              child: Text('YES'),
-              onPressed: () {
-                print('Ok Pressed');
-                Navigator.pushReplacement(context,
-                    MaterialPageRoute(builder: (context) => home_screen()));
-              },
-            ),
-          ],
-        );
-      },
-    );
   }
 }
