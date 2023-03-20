@@ -23,7 +23,7 @@ class _changepasswordState extends State<changepassword> {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.indigo,
-          title: const Text('Change Password'),
+          title: const Text('change Password'),
         ),
         body: SingleChildScrollView(
           child: Padding(
@@ -112,7 +112,7 @@ class _changepasswordState extends State<changepassword> {
       print('Response body : ${response.body}');
       Fluttertoast.showToast(msg: 'Change Password Successfully');
 
-      Navigator.push(
+      Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => changepassword()));
     }
   }

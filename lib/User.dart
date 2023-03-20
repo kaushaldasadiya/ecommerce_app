@@ -174,10 +174,10 @@ class _UserState extends State<User> {
     print('Profile Updated Successfully');
     print('Response Status : ${response.statusCode}');
     print('Response body : ${response.body}');
-    Fluttertoast.showToast(msg: 'Profile Updated');
+    Fluttertoast.showToast(msg: 'Profile Updated Successfully');
 
     // ignore: use_build_context_synchronously
-    Navigator.push(
+    Navigator.pushReplacement(
         context,
         MaterialPageRoute(
           builder: (context) => User(),

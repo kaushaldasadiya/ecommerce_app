@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_11/Homepage.dart';
 import 'package:flutter_application_11/OrderList.dart';
+import 'package:flutter_application_11/screen/home_screen.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:http/http.dart' as http;
@@ -145,6 +148,8 @@ class _OrderDetailsState extends State<OrderDetails> {
     print('cancel_reason :${cancelreason.text}');
     print("user_id : $a");
 
+    Fluttertoast.showToast(msg: 'Your Order Cancel Successfully');
+
     var mymap = jsonDecode(response.body);
 
     setState(() {
@@ -152,10 +157,10 @@ class _OrderDetailsState extends State<OrderDetails> {
         Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => OrderList(),
+              builder: (context) => Homepage(),
             ));
       } else {
-        print('Cancel Order Successfully');
+        print('Cancel Order');
       }
     });
   }

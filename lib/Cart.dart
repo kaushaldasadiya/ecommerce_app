@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
@@ -185,6 +186,8 @@ class _CartState extends State<Cart> {
       print('Response status:${response.statusCode}');
       print('Response body : ${response.body}');
       print("cart_id : $c_id");
+      Fluttertoast.showToast(
+          msg: 'Product Remove from Cart Successfully', textColor: Colors.red);
 
       var map = jsonDecode(response.body);
 
