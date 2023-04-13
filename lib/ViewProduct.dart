@@ -41,7 +41,7 @@ class _ViewProductState extends State<ViewProduct> {
               },
               icon: const Icon(Icons.favorite_border))
         ],
-        backgroundColor: Colors.indigo,
+        backgroundColor: Colors.cyan,
         title: const Text(
           'ViewProduct',
           style: TextStyle(

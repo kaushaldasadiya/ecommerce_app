@@ -34,7 +34,7 @@ class _CartState extends State<Cart> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.indigo,
+        backgroundColor: Colors.cyan,
         title: const Text('Cart',
             style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
       ),
@@ -124,7 +124,7 @@ class _CartState extends State<Cart> {
                 child: InkWell(
                   child: Container(
                     alignment: Alignment.center,
-                    color: Colors.indigo,
+                    color: Colors.cyan,
                     child: Text(
                       "Place Order",
                       style: TextStyle(

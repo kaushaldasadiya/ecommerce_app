@@ -48,7 +48,7 @@ class _ProductState extends State<Product> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.indigo,
+        backgroundColor: Colors.cyan,
         title: const Text('Product',
             style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
         actions: [
@@ -159,7 +159,7 @@ class _ProductState extends State<Product> {
                     height: 10.0,
                   ),
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(5, 5, 140, 0),
+                    padding: const EdgeInsets.fromLTRB(5, 5, 180, 0),
                     child: Text(
                         'Product Details:- ${mydata[0]['product_details']}',
                         style: const TextStyle(
@@ -171,7 +171,7 @@ class _ProductState extends State<Product> {
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.all(10.0),
         child: ElevatedButton(
-            style: TextButton.styleFrom(backgroundColor: Colors.indigo),
+            style: TextButton.styleFrom(backgroundColor: Colors.cyan),
             onPressed: () {
               addproducttocart();
             },

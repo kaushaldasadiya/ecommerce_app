@@ -30,7 +30,7 @@ class _wishlistpageState extends State<wishlistpage> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.indigo,
+          backgroundColor: Colors.cyan,
           title: Text('WishList Page'),
           leading: IconButton(
               onPressed: () {

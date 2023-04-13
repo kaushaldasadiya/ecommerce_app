@@ -24,7 +24,7 @@ class Homepage extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.indigo,
+          backgroundColor: Colors.cyan,
           centerTitle: true,
           title: Row(
             mainAxisAlignment: MainAxisAlignment.start,

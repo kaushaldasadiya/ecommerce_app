@@ -35,7 +35,7 @@ class _LoginState extends State<Login> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.indigo,
+          backgroundColor: Colors.cyan,
           title: const Text('Login'),
         ),
         body: Form(
@@ -89,7 +89,7 @@ class _LoginState extends State<Login> {
                     isReverse: true,
                     selectedTextColor: Colors.white,
                     transitionType: TransitionType.RIGHT_TO_LEFT,
-                    backgroundColor: Colors.indigo,
+                    backgroundColor: Colors.cyan,
                     borderColor: Colors.white,
                     borderRadius: 10,
                     borderWidth: 2,

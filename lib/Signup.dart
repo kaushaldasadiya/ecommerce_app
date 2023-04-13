@@ -27,7 +27,7 @@ class Signup extends StatelessWidget {
                       ));
                 },
                 icon: Icon(Icons.arrow_back)),
-            backgroundColor: Colors.indigo,
+            backgroundColor: Colors.cyan,
             title: const Text('Sign Up'),
           ),
           body: Siggup(),
@@ -185,7 +185,7 @@ class _SiggupState extends State<Siggup> {
               isReverse: true,
               selectedTextColor: Colors.white,
               transitionType: TransitionType.RIGHT_TO_LEFT,
-              backgroundColor: Colors.indigo,
+              backgroundColor: Colors.cyan,
               borderColor: Colors.white,
               borderRadius: 10,
               borderWidth: 2,

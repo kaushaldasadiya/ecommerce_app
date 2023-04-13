@@ -28,7 +28,7 @@ class _PlaceOrderState extends State<PlaceOrder> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.indigo,
+          backgroundColor: Colors.cyan,
           title: const Text('Place Order',
               style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
         ),
@@ -127,7 +127,7 @@ class _PlaceOrderState extends State<PlaceOrder> {
                       width: 150,
                       child: ElevatedButton(
                           style: TextButton.styleFrom(
-                              backgroundColor: Colors.indigo),
+                              backgroundColor: Colors.cyan),
                           onPressed: () {
                             _orderplace();
                           },

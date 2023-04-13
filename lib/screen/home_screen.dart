@@ -16,7 +16,7 @@ class _MyAppState extends State<home_screen> {
     return Scaffold(
         appBar: AppBar(
           title: Text('Ecommerce Shopping'),
-          backgroundColor: Colors.indigo,
+          backgroundColor: Colors.cyan,
         ),
         body: Container(
           child: Column(
@@ -40,7 +40,7 @@ class _MyAppState extends State<home_screen> {
                           ),
                         ),
                         style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.indigo),
+                            backgroundColor: Colors.cyan),
                       ),
                     ),
                   ),
@@ -58,7 +58,7 @@ class _MyAppState extends State<home_screen> {
                         ),
                       ),
                       style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.indigo),
+                          backgroundColor: Colors.cyan),
                     ),
                   ),
                   TextButton(
@@ -86,7 +86,7 @@ class _MyAppState extends State<home_screen> {
                     height: 500,
                     width: 500,
                     child: Image.network(
-                        "https://t4.ftcdn.net/jpg/03/48/05/47/360_F_348054737_Tv5fl9LQnZnzDUwskKVKd5Mzj4SjGFxa.jpg"),
+                        "https://blog.logrocket.com/wp-content/uploads/2022/09/32-free-flutter-templates-great-mobile-apps.png"),
                   )
                 ]),
               )

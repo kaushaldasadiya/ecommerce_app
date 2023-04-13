@@ -24,7 +24,7 @@ class _SubcategoryState extends State<Subcategory> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          backgroundColor: Colors.indigo,
+          backgroundColor: Colors.cyan,
           title: const Text(
             'Subcategory',
             style: TextStyle(

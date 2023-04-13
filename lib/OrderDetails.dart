@@ -32,7 +32,7 @@ class _OrderDetailsState extends State<OrderDetails> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.indigo,
+          backgroundColor: Colors.cyan,
           title: const Text('Order Details'),
         ),
         body: Form(
@@ -88,7 +88,7 @@ class _OrderDetailsState extends State<OrderDetails> {
                             )),
                         ElevatedButton(
                           style: TextButton.styleFrom(
-                              backgroundColor: Colors.indigo),
+                              backgroundColor: Colors.cyan),
                           onPressed: () {
                             if ((!_formKey.currentState!.validate())) {
                               return;

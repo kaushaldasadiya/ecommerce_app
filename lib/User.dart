@@ -26,7 +26,7 @@ class _UserState extends State<User> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.indigo,
+          backgroundColor: Colors.cyan,
           title: const Text('Profile Page'),
         ),
         body: Padding(
@@ -118,8 +118,8 @@ class _UserState extends State<User> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     ElevatedButton(
-                        style: TextButton.styleFrom(
-                            backgroundColor: Colors.indigo),
+                        style:
+                            TextButton.styleFrom(backgroundColor: Colors.cyan),
                         onPressed: () {
                           updateProfile();
                         },
@@ -130,8 +130,8 @@ class _UserState extends State<User> {
                               fontWeight: FontWeight.bold,
                             ))),
                     ElevatedButton(
-                        style: TextButton.styleFrom(
-                            backgroundColor: Colors.indigo),
+                        style:
+                            TextButton.styleFrom(backgroundColor: Colors.cyan),
                         onPressed: () {
                           Navigator.push(
                               context,

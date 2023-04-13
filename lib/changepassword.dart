@@ -22,8 +22,8 @@ class _changepasswordState extends State<changepassword> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.indigo,
-          title: const Text('change Password'),
+          backgroundColor: Colors.cyan,
+          title: const Text('Change Password'),
         ),
         body: SingleChildScrollView(
           child: Padding(
@@ -74,7 +74,7 @@ class _changepasswordState extends State<changepassword> {
                   height: 15,
                 ),
                 ElevatedButton(
-                    style: TextButton.styleFrom(backgroundColor: Colors.indigo),
+                    style: TextButton.styleFrom(backgroundColor: Colors.cyan),
                     onPressed: () {
                       _changepassword();
                     },
